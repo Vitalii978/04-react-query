@@ -1,6 +1,11 @@
 import axios from "axios";
 import type { Movie } from "../types/movie";
 
+export interface MoviesResponse {
+  results: Movie[];
+  total_pages: number;
+}
+
 interface MovieSearchResponse {
   page: number;
   results: Movie[];

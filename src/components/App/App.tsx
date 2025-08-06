@@ -73,7 +73,7 @@ import css from './App.module.css';
 import SearchBar from '../SearchBar/SearchBar';
 import toast, { Toaster } from 'react-hot-toast';
 import getMovies from '../../services/movieService';
-import type { MoviesResponse } from '../../types/movie';
+import type { MoviesResponse } from '../../services/movieService';
 import MovieGrid from '../MovieGrid/MovieGrid';
 import type { Movie } from '../../types/movie';
 import { useEffect, useState } from 'react';
